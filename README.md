@@ -1,12 +1,14 @@
 ### super0plant
 
-Local-first tools for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH).
-Windows · no telemetry · no accounts · everything stays on disk.
+Local-first tools for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) and Windows.
+No telemetry · no accounts · data stays on your disk.
 
-#### Game Time — per-game playtime tracker
+#### Projects
 
-Tracks how long each game actually runs, straight from the running processes (the launcher does not have to be running), and charts daily / weekly / monthly / all-time totals with a per-platform split. Ships as a DSH sidebar panel, plus a standalone tray app that works without DSH.
+- **[Game Time](https://github.com/super0plant/dsh-plugin-game-time)** — per-game playtime tracker. Reads the running processes (the launcher does not have to be running), charts daily / weekly / monthly / all-time totals with a per-platform split. Ships as a DSH sidebar panel plus a standalone tray app that works without DSH.
 
-- Repository: [dsh-plugin-game-time](https://github.com/super0plant/dsh-plugin-game-time)
-- Install: `dsh plugin --profile desktop add github:super0plant/dsh-plugin-game-time`
-- Data stays in `%USERPROFILE%\.dsh\storages\game-time\`
+#### House rules
+
+- Everything runs locally; nothing is uploaded.
+- Windows first.
+- MIT licensed; issues and PRs are welcome.
